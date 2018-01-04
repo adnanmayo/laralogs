@@ -1,0 +1,16 @@
+{
+    "name": "adnanmayo/laralogs",
+    "description": "Realtime Logs in your Browser",
+    "type": "library",
+    "require": {
+        "pusher/pusher-php-server": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adnan Mumtaz",
+            "email": "adnanmumtazmayo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
