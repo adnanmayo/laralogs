@@ -12,5 +12,6 @@
             "email": "adnanmumtazmayo@gmail.com"
         }
     ],
-    "minimum-stability": "master"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
