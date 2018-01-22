@@ -12,5 +12,10 @@
             "email": "adnanmumtazmayo@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Laralog\\": "src/"
+        }
+    },
     "minimum-stability": "stable"
 }
