@@ -1,4 +1,4 @@
-## Laravel Monolog MySQL Handler.
+## Realtime logs in your browser.
 
 This package will send logs information in your browser using pusher.
 
