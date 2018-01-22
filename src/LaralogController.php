@@ -4,7 +4,6 @@ namespace Adnanmayo\Laralog;
 
 use \App\Http\Controllers\Controller;
 
-
 /**
  * Class LaralogController
  * @package Adnanmayo\Laralog
@@ -16,5 +15,4 @@ class LaralogController extends Controller
     {
         return view('laralogs::index');
     }
-
 }

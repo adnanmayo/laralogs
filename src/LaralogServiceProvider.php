@@ -13,9 +13,6 @@ class LaralogServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-
-
         $this->loadRoutesFrom(__DIR__.'/routes.php');
         $this->publishes([
             __DIR__.'/Config/laralogs.php' => config_path('laralogs.php'),
@@ -23,17 +20,6 @@ class LaralogServiceProvider extends ServiceProvider
         ]);
 
         $this->loadViewsFrom(__DIR__.'/views', 'laralogs');
-
-
     }
 
-    /**
-     * Register the application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
-    }
 }
