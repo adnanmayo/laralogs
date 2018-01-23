@@ -16,7 +16,6 @@ class LaralogsController extends Controller
      */
     public function index()
     {
-
         return view('laralogs::index');
     }
 }

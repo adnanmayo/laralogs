@@ -4,6 +4,10 @@ namespace Adnanmayo\Laralogs;
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class LaralogsServiceProvider
+ * @package Adnanmayo\Laralogs
+ */
 class LaralogsServiceProvider extends ServiceProvider
 {
     /**
@@ -22,4 +26,9 @@ class LaralogsServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'laralogs');
     }
 
+    /**
+     * register function abstract
+     *
+     */
+    public function register(){}
 }
