@@ -13,7 +13,7 @@ Open up `config/app.php` and find the `providers` key.
 ~~~
 'providers' => array(
     // ...
-    \Adnanmayo\Laralog\LaralogServiceProvider::class,,
+    \Adnanmayo\Laralogs\LaralogsServiceProvider::class,,
 );
 ~~~
 
@@ -49,7 +49,7 @@ In your application `bootstrap/app.php` add:
 
 ~~~php
 $app->configureMonologUsing(function($monolog) use($app) {
-    $monolog->pushHandler(new Adnanmayo\Laralog\LaralogHandler());
+    $monolog->pushHandler(new Adnanmayo\Laralogs\LaralogsHandler());
 });
 ~~~
 
