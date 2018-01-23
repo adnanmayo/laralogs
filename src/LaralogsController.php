@@ -11,6 +11,9 @@ use \App\Http\Controllers\Controller;
  */
 class LaralogsController extends Controller
 {
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
         return view('laralogs::index');

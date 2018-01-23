@@ -13,17 +13,9 @@ use Pusher\Pusher;
  */
 class LaralogsHandler extends AbstractProcessingHandler
 {
-    /**
-     * @var
-     */
-    protected $table;
-    /**
-     * @var
-     */
-    protected $connection;
 
     /**
-     * LaralogHandler constructor.
+     * LaralogsHandler constructor.
      * @param int $level
      * @param bool $bubble
      */
