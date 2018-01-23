@@ -1,6 +1,6 @@
 <?php
 
-namespace Adnanmayo\Laralog;
+namespace Adnanmayo\Laralogs;
 
 use Monolog\Logger;
 use Monolog\Handler\AbstractProcessingHandler;
@@ -11,7 +11,7 @@ use Pusher\Pusher;
  * Class LaralogHandler
  * @package Adnanmayo\Laralog
  */
-class LaralogHandler extends AbstractProcessingHandler
+class LaralogsHandler extends AbstractProcessingHandler
 {
     /**
      * @var

@@ -1,6 +1,6 @@
 <?php
 
-namespace Adnanmayo\Laralog;
+namespace Adnanmayo\Laralogs;
 
 use \App\Http\Controllers\Controller;
 
@@ -9,7 +9,7 @@ use \App\Http\Controllers\Controller;
  * @package Adnanmayo\Laralog
  *
  */
-class LaralogController extends Controller
+class LaralogsController extends Controller
 {
     public function index()
     {

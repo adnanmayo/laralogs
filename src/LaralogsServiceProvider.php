@@ -1,10 +1,10 @@
 <?php
 
-namespace Adnanmayo\Laralog;
+namespace Adnanmayo\Laralogs;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaralogServiceProvider extends ServiceProvider
+class LaralogsServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

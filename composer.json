@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Adnanmayo\\Laralog\\": "src/"
+            "Adnanmayo\\Laralogs\\": "src/"
         }
     },
     "minimum-stability": "stable"
