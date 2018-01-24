@@ -1,4 +1,4 @@
-@extends('template')
+@extends('laralogs::template')
 
 @section('content')
 
