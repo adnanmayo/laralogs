@@ -1,3 +1,5 @@
+I developed this package for myself and using it in my boilerplate. 
+
 ## Realtime logs in your browser.
 
 This package will send logs information in your browser using pusher.
