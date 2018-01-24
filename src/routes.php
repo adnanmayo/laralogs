@@ -1,4 +1,4 @@
 <?php
 
 
-Route::get('laralogs', 'Adnanmayo\Laralogs\LaralogController@index');
+Route::get('laralogs', 'Adnanmayo\Laralogs\LaralogsController@index');
